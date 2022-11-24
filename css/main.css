@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.container {
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  border-top: 1px solid hsl(216, 50%, 16%);
+  width: 328px;
+  height: 85%;
+  margin: 20px auto;
+}
+.main {
+  background-color: hsl(216, 50%, 16%);
+  width: 360px;
+  height: 588px;
+  /* border: 1px solid red; */
+  margin: 50px auto;
+  border-radius: 14px;
+  box-shadow: 20px 30px 20px hsl(217, 54%, 9%);
+}
+.main .pic {
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.main .pic img {
+  max-height: 100%;
+  border-radius: 14px;
+}
+.main .head {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  padding: 5px 30px;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.9;
+}
+.par p {
+  font-size: 15px;
+  color: hsl(215, 32%, 27%);
+  padding: 13px 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.main .info {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+}
+.main .info i {
+  padding-right: 45px;
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.main .info i span {
+  font-size: 14px;
+  padding-left: 4px;
+  font-weight: bold;
+}
+.main .info .days {
+  font-weight: bold;
+  font-size: 15px;
+  color: hsl(215, 32%, 27%);
+  font-family: "Montserrat", sans-serif;
+  padding-left: 55px;
+}
+.main .info .days i {
+  color: hsl(215, 32%, 27%);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.main .info .days i span {
+  font-size: 14px;
+  padding-left: 4px;
+  font-weight: bold;
+}
+.main .info2 {
+  display: flex;
+  color: white;
+  font-size: 16px;
+  word-spacing: 2px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.main .info2 span {
+  color: hsl(215, 32%, 27%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.main .info2 .pic2 img {
+  width: 30px;
+}
+.main .info2 .pic2 {
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+.main .info2 .name {
+  padding-left: 20px;
+}
