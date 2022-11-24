@@ -1,1 +1,1 @@
-# my-projects
+# nft-preview-card-component-main
